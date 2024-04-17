@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(43, 43, 43);
+}
+.header{
+    background: url(jaHwKqachVLQU4yCJNhYeakpqxg.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+
+}
+.header::after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.50;
+    position: absolute;
+    left: 0px;
+    top:0px
+}
+.logo{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--theme-color-text);
+    display: flex;
+    position: relative;
+    right: 37vh;
+    margin-left: 14vh;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: var(--theme-color-nav);
+    cursor: pointer;
+}
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+    height: 60vh;
+    position: relative;
+    flex-direction: column;
+    z-index: 1;
+    color: var(--theme-color-text);
+    text-align: center;
+
+}
+:root{
+    --theme-background-btn:aliceblue;
+    --theme-background:#0C0C0C;
+    --theme-color-p:#AAAAAA;
+    --theme-color-text:#ffffff;
+    --theme-instagram-color:#fff;
+    --theme-color-title:#DCCA87;
+    --theme-color-nav: #F5EFDB;
+}
+.nav{
+    padding: 0px 5px 0px 29px;
+    display: flex;
+    position: relative;
+    left: 30vh;
+    font-size: larger;
+    margin: 0px 38px;
+}
+.main-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* font-size: 74px; */
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.button{
+    margin-left: 30px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.catering{
+    color: rgb(199, 191, 175);
+}
+.section-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    color: rgb(199, 191, 175);
+}
+.section-nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
